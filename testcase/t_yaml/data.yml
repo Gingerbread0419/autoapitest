@@ -1,0 +1,35 @@
+#name: 'test_yaml'
+#result: 'success'
+
+#- "a"
+#字典嵌套字典
+#person1:
+# name: 'xiaoming'
+# age: 17
+#
+#person2:
+# name: 'zhuzhu'
+# age: 19
+# 字典嵌套列表
+#person:
+#  - 'a'
+#  - 'b'
+#  - 'c'
+
+#列表嵌套字典
+---
+-
+ name: 'zhangna'
+ age: 19
+-
+ name: 'shasan'
+ age: 20
+---
+#列表嵌套字典
+#---
+-
+ - 'a'
+ - 'b'
+-
+  - 1
+  - 2
